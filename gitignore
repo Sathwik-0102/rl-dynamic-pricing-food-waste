@@ -1,0 +1,18 @@
+# Raw Kaggle data (download from the dataset link in the README)
+train.csv
+test.csv
+sample_submission.csv
+
+# Generated artifacts
+*.parquet
+rl_panel.parquet
+*.zip
+ppo_pricing_model.zip
+feature_engineered_data.csv
+policy_comparison.csv
+reward_distribution_stats.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.env

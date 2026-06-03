@@ -1,0 +1,15 @@
+name: rl_pricing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - gymnasium
+      - numpy
+      - pandas
+      - pyarrow          # parquet IO used in EDA / training
+      - matplotlib
+      - stable-baselines3
+      - torch            # SB3 PPO backend
+      - jupyter
